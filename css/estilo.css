@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Roboto:wght@100&display=swap');
 
-*{
+ .mainIndex{
     margin:0; 
     padding:0;
     line-height: 2rem;}
@@ -22,59 +22,36 @@
         font-family: sans-serif;
         }
     
-    nav{
-        font-family:sans-serif;}
 
     footer{font-family:sans-serif;}
 
 
 
+    
+
+
+
+
 
  /* HEADER */
- /* header{
-    grid-area: header;
- }
+ 
 
-nav{
-    background-color: #1a262c;
-    display: flex;
-    padding-top:30px;
-    padding-bottom: 30px;
 
-}
 
  nav ul {
-    display: flex;
-    flex-direction: row;
     justify-content:space-evenly;
-    align-items: center;
-    list-style-type:none;
-    width: 90%;
+    width: 90%; 
  }
 
- body > header > nav > a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10%;
- }
+ .navbar{padding:0;}
+ .navegacionModificacion {background-color:#f8c300;}
+ .navegacionModificacion a img {margin-left: 1rem;}
+ .navegacionModificacion ul li a {color: white;font-size: 1.1rem;}
+ .navegacionModificacion ul li a:hover{color: black;}
 
- nav ul li a {
-    text-decoration: none;
-    color: white;
-    transition: 1s;
- }
-
-nav ul li a:hover{
-    color: #f8c300;
-}
-
-.actActivo {
-    color: #f8c300;
-}
+ body > header > nav > div > button > span{background-image: url(../imagenes/menu-hamburguesa.png);}
 
 .imagenEncabezado{
-    grid-area: imgEncabezado;
     background-image: url(../imagenes/imagen-encabezado.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -91,7 +68,7 @@ nav ul li a:hover{
     backdrop-filter:blur(10px);
     font-size:calc(2rem + 1vw);}
 
-.menuHamburguesa{display:none;} */
+
 
 
 /* HEADER */
