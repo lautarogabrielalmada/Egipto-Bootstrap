@@ -31,7 +31,7 @@
 
 
  /* HEADER */
- header{
+ /* header{
     grid-area: header;
  }
 
@@ -91,7 +91,7 @@ nav ul li a:hover{
     backdrop-filter:blur(10px);
     font-size:calc(2rem + 1vw);}
 
-.menuHamburguesa{display:none;}
+.menuHamburguesa{display:none;} */
 
 
 /* HEADER */
@@ -119,7 +119,7 @@ nav ul li a:hover{
 
 
 /* GRILLA PADRE */
-.grillaPadre{
+/* .grillaPadre{
     display: grid;
     width: 100%;
     grid-template-columns:repeat(3, 1fr);
@@ -130,7 +130,7 @@ nav ul li a:hover{
     "footer footer footer";
  }
 
- main{grid-area: main;}
+ main{grid-area: main;} */
 
  
 /* GRILLA PADRE */
@@ -151,7 +151,7 @@ nav ul li a:hover{
 
 
 /* GRILLA MAIN INDEX */
-.grillaMainIndex{
+/* .grillaMainIndex{
     display: grid;
     margin: auto;
     grid-template-columns:repeat(2, 1fr);
@@ -251,7 +251,7 @@ nav ul li a:hover{
 
 .section7Index iframe{
     width: 90%;
-}
+} */
 
 /* GRILLA MAIN INDEX */
 
@@ -277,7 +277,7 @@ nav ul li a:hover{
 
 /* GRILLA MAIN EXCURSIONES*/
 
-.grillamainExcursiones{
+/* .grillamainExcursiones{
     display: grid;
     margin: auto;
     grid-template-columns:repeat(2, 1fr);
@@ -384,7 +384,7 @@ nav ul li a:hover{
 .excursionesLista:hover button a {
     color:#1a262c;
     transition: all 1s;
-}
+} */
 
 
 
@@ -433,7 +433,7 @@ nav ul li a:hover{
 /* GRILLA MAIN HOTELES*/
 
 
-.grillaMainHoteles{
+/* .grillaMainHoteles{
     display: grid;
     grid-template-columns:repeat(2, 1fr);
     grid-template-areas: 
@@ -565,7 +565,7 @@ nav ul li a:hover{
 
 .hotelesListado h3{
     margin-top: 1rem;
-}
+} */
 
 /* GRILLA MAIN HOTELES*/
 
@@ -599,7 +599,7 @@ nav ul li a:hover{
 
 /* GRILLA MAIN CONSEJOS*/
 
-.grillaMainConsejos{
+/* .grillaMainConsejos{
     display: grid;
     grid-template-columns:repeat(2,1fr);
     grid-template-areas:
@@ -669,7 +669,7 @@ nav ul li a:hover{
     margin-bottom: 1rem;
     background-color: #1a262c;
     color: white;
-}
+} */
 
 
 
@@ -702,7 +702,7 @@ nav ul li a:hover{
 
 /* GRILLA MAIN CONTACTO*/
 
-.grillaMainContacto{
+/* .grillaMainContacto{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,1fr);
@@ -710,11 +710,11 @@ nav ul li a:hover{
     "section1Contacto section1Contacto"
     "section2Contacto section2Contacto"
     ;
-}
+} */
 
 
 
-.section1Contacto{
+/* .section1Contacto{
    
     grid-area: section1Contacto;
     margin-top: 10rem;
@@ -758,10 +758,10 @@ nav ul li a:hover{
 .section2Contacto p{
     color: white;
     text-align: justify;
-}
+} */
 
 /* seccion1 */
-#mainContacto > section:nth-child(1) div{
+/* #mainContacto > section:nth-child(1) div{
 
     margin-left: 5%;
     margin-right: 5%;
@@ -819,7 +819,7 @@ textarea {
     border: 2px solid #ccc;
     border-radius: 4px;
     background-color: #f8f8f8;
-    resize: none;}
+    resize: none;} */
  /* seccion1 */    
 
 
@@ -840,13 +840,13 @@ textarea {
 
 /* HEADER MEDIA  */
  
-    header nav ul {
+    /* header nav ul {
         display: none;
     }
 
     .menuHamburguesa{
         display: block;
-        margin-left: 70%;}
+        margin-left: 70%;} */
 /* HEADER MEDIA  */
 
 
@@ -857,7 +857,7 @@ textarea {
 
 
 /* MEDIA INDEX GRILLA */
-    .grillaMainIndex{
+    /* .grillaMainIndex{
         grid-template-areas: 
         "section1Index section1Index"
         "section2Index section2Index"
@@ -889,7 +889,7 @@ textarea {
     }
 
     .section7Index p{
-        width: 80%;
+        width: 80%; */
 
     }
 /* MEDIA INDEX GRILLA */
@@ -913,7 +913,7 @@ textarea {
 
  /* MEDIA EXCURSIONES GRILLA */
 
-    body > main > section.section2Excursiones > img:nth-child(1){
+    /* body > main > section.section2Excursiones > img:nth-child(1){
         width: 400px;
         height: 650px;
     }
@@ -932,7 +932,7 @@ textarea {
 
     body > main > section.section1Hoteles > img{
         display: none;
-    }
+    } */
 
 
  /* MEDIA EXCURSIONES GRILLA */
@@ -952,13 +952,13 @@ textarea {
 
 /* FOOTER MEDIA  */
 
-.footerFuentes{
+/* .footerFuentes{
     display: none;
 }
 
 .footerAutor{
     text-align: center;
-}
+} */
 
 /* FOOTER MEDIA  */
 
@@ -986,7 +986,7 @@ textarea {
 
  /* FOOTER */
 
- footer{
+ /* footer{
     grid-area: footer;
     display: flex;
     justify-content: space-evenly;
@@ -1009,7 +1009,7 @@ footer a {
 
 footer a:hover{
     color: #f8c300;
-}
+} */
 
  /* FOOTER */
 
