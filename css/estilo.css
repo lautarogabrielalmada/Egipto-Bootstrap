@@ -55,7 +55,8 @@
     margin-left: 1rem;}
 
  .navegacionModificacion ul li a {
-    color: white;font-size: 1.1rem;}
+    color: rgb(126, 126, 126);
+    font-size: 1.1rem;}
 
  .navegacionModificacion ul li a:hover{
     color: black;}
@@ -139,57 +140,33 @@
 
 
 /* GRILLA MAIN INDEX */
-/* .grillaMainIndex{
-    display: grid;
-    margin: auto;
-    grid-template-columns:repeat(2, 1fr);
-    grid-template-areas: 
-    "section1Index section1Index"
-    "section2Index section3Index"
-    "section2Index section3Index"
-    "section2Index section4Index"
-    "section5Index section5Index"
-    "section6Index section6Index"
-    "section7Index section7Index";}
-
 
  
 
 .section1Index{
-    grid-area: section1Index;
-    text-align: center;
-    width: 90%;
-    margin: auto;
     margin-top: 15rem;
-    margin-bottom:15rem;
+   margin-bottom: 10rem;
+ 
 }
 
-.section1Index h2 {
 
-    margin-bottom: 3rem;
-    font-size: 30px;
-}
 
  .section2Index{
-    grid-area: section2Index;
     display: flex;
+    margin-top: 18rem;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-
-    }
+    align-items: center;}
 
  .section3Index{
-        grid-area: section3Index;
         width: 90%;
         text-align: justify;}
 
  .section4Index{
-    grid-area: section4Index;
+    
     width: 90%;
     text-align: justify;}
 
- .section5Index{
+ /* .section5Index{
     grid-area: section5Index;
     display: flex;
     justify-content: center;
@@ -235,11 +212,11 @@
 .section7Index h2 {
     color: white;
     font-size: 4rem;
-}
+} */
 
 .section7Index iframe{
     width: 90%;
-} */
+} 
 
 /* GRILLA MAIN INDEX */
 
@@ -999,4 +976,3 @@ footer a:hover{
 } 
 
  /* FOOTER */
-
