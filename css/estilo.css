@@ -2,10 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Roboto:wght@100&display=swap');
 
- .mainIndex{
+ .bodyIndex,.bodyExcursiones,.bodyHoteles,.bodyConsejos,.bodyContacto{
     margin:0; 
     padding:0;
     line-height: 2rem;}
+
 
 
     h1,h2,h3,h4,h5{
@@ -44,12 +45,22 @@
  }
 
  .navbar{padding:0;}
- .navegacionModificacion {background-color:#f8c300;}
- .navegacionModificacion a img {margin-left: 1rem;}
- .navegacionModificacion ul li a {color: white;font-size: 1.1rem;}
- .navegacionModificacion ul li a:hover{color: black;}
 
- body > header > nav > div > button > span{background-image: url(../imagenes/menu-hamburguesa.png);}
+ .navegacionModificacion {
+    background-color:#f8c300;
+    padding-top: 1rem;
+    padding-bottom: 1rem;}
+
+ .navegacionModificacion a img {
+    margin-left: 1rem;}
+
+ .navegacionModificacion ul li a {
+    color: white;font-size: 1.1rem;}
+
+ .navegacionModificacion ul li a:hover{
+    color: black;}
+
+
 
 .imagenEncabezado{
     background-image: url(../imagenes/imagen-encabezado.jpg);
@@ -59,7 +70,7 @@
     justify-content: center;
     align-items: center;
     height:80vh;
-     } 
+     }  
      
 .imagenEncabezado h1 {
     color:white;
@@ -858,17 +869,17 @@ textarea {
 
     .section4Index{
         margin:auto;}
-
+        */
     .section6Index img{
         width: 300px;
         height: 200px;
 
     }
 
-    .section7Index p{
-        width: 80%; */
+    /* .section7Index p{
+        width: 80%; 
 
-    }
+    } */
 /* MEDIA INDEX GRILLA */
 
 
@@ -929,7 +940,7 @@ textarea {
 
 /* FOOTER MEDIA  */
 
-/* .footerFuentes{
+.footerFuentes{
     display: none;
 }
 
@@ -940,10 +951,10 @@ textarea {
 /* FOOTER MEDIA  */
 
 
+}
 
 
-
-}/* FIN MEDIA QUERY */
+/* FIN MEDIA QUERY */
 
 
 
@@ -963,65 +974,29 @@ textarea {
 
  /* FOOTER */
 
- /* footer{
-    grid-area: footer;
+footer{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
     align-items: center;
-    background-color: #1a262c;
+    background-color: #f8c300;
     padding-top:3rem;
     padding-bottom: 2rem;
  }
 
 footer p,li{
-    color: white;
+    color: black;
     list-style-type: none;
 }
 
 footer a {
-    color:white;
+    color:black;
     transition: 1s;
     text-decoration: none;}
 
 footer a:hover{
-    color: #f8c300;
-} */
+    color:white;
+} 
 
  /* FOOTER */
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
- 
-
-
-
-
-
- 
- 
 
