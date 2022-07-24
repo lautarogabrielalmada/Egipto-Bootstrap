@@ -304,12 +304,9 @@ background-color:#f8c300;
 .section1Hoteles h2{
     width: 80%;
     margin: auto;
-    font-size: calc(3rem + 1vw);
-    margin-bottom: 3rem;
 } 
 
 .section1Hoteles p {
-    text-align: justify;
     width: 80%;
     margin: auto;
     font-size: clas(1rem + 1vw);
@@ -323,74 +320,43 @@ background-color:#f8c300;
 
 
 
-/* .section3Hoteles{
-    grid-area:section3Hoteles;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-} */
-
-/* .hotelesListado{
-    display: flex;
-    flex-wrap: wrap;
+.hotelesListado{
     width: 90%;
-    justify-content: space-between;
     margin: auto;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
     border: 1px rgba(0,0,0 ,0.3) solid;
     transition: all 1s;
 
-} */
+} 
 
-/* .hotelesListado img {
-    margin:auto;
-} */
 
-/* .hotelesListado div {
-    margin:auto;
-} */
-
-/* .hotelesListado button{
+.hotelesListado button{
     width: 100%;
-    background-color: black;
     border: none;
+   
+} 
+
+.btn-primary{
+    border: #1a262c;
     transition: all 1s;
-} */
+}
 
-/* .hotelesListado:hover button{
-    background-color:#f8c300;
-    color:#1a262c;
-    cursor: pointer;
-} */
 
-/* .hotelesListado a{
+
+.hotelesListado:hover {
+    box-shadow: 0px 10px 10px black;
+    cursor: pointer;}
+
+.hotelesListado a{
     color: white;
     text-decoration: none;
     font-weight: bold;
-} */
+}
 
-/* .hotelesListado:hover button a {
-    color:#1a262c;
+.hotelesListado:hover button a {
+    color:#f8c300;;
     transition: all 1s;
-} */
+}
 
-/* .hotelesListado li {
-    color: white;
-    transition:all 1s;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-} */
-
-/* .hotelesListado:hover li {
-    color: black;
-} */
-
-/* .hotelesListado h3{
-    margin-top: 1rem;
-}  */
 
 /* GRILLA MAIN HOTELES*/
 
