@@ -177,18 +177,15 @@
     padding-top: 5rem;
     padding-bottom: 5rem;} 
 
-.section7Index div div {
-   
-}
-
-
-
 
 .section7Index h2 {
-    color: black;
+    color: white;
     font-size: 4rem;
 } 
 
+.section7Index p {
+    color:white;
+}
 .section7Index iframe{
     width: 90%;
     margin-left: 2rem;
@@ -938,17 +935,17 @@ footer{
  }
 
 footer p,li{
-    color: black;
+    color: rgb(95, 95, 95);
     list-style-type: none;
 }
 
 footer a {
-    color:black;
+    color: rgb(95, 95, 95);
     transition: 1s;
     text-decoration: none;}
 
 footer a:hover{
-    color:white;
+    color:black;
 } 
 
  /* FOOTER */
