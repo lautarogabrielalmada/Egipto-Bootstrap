@@ -192,114 +192,103 @@
 
 /* GRILLA MAIN EXCURSIONES*/
 
-/* .grillamainExcursiones{
-    display: grid;
-    margin: auto;
-    grid-template-columns:repeat(2, 1fr);
-    grid-template-areas: 
-    "section1Excursiones section1Excursiones"
-    "section2Excursiones section2Excursiones"
-    "section3Excursiones section3Excursiones"
-    "section4Excursiones section4Excursiones";}
+
 
 .section1Excursiones{
-    grid-area: section1Excursiones;
-    text-align: center;
-    width: 90%;
-    margin: auto;
     margin-top: 15rem;
     margin-bottom:15rem;
 }
-.section2Excursiones{
-    grid-area: section2Excursiones;
+
+/* .section2Excursiones{
+   
     display: flex;
     justify-content: center;
     gap: 0.3rem;
     flex-wrap: wrap;
-}
+} */
 
-.section3Excursiones{
-    grid-area: section3Excursiones;
+/* .section3Excursiones{
+   
     margin-top: 5rem;
     margin-bottom: 5rem;
     background-color: #f8c300;
     padding-top: 5rem;
     padding-bottom: 5rem;
-}
+} */
 
-.section3Excursiones div{
+/* .section3Excursiones div{
     width: 50%;
     margin: auto;
-}
+} */
 
-.section3Excursiones div h2{
+/* .section3Excursiones div h2{
     margin-bottom: 3rem;
     font-size:calc(2rem + 1vw);
-    color: white;}
+    color: white;} */
 
 
 
-.section4Excursiones{
-    grid-area: section4Excursiones;
+/* .section4Excursiones{
+    
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     width:90%;
     margin: auto;
     flex-wrap: wrap;
-}
+} */
 
-.excursionesLista{
+/* .excursionesLista{
 
     border: 1px rgba(0,0,0 ,0.3) solid;
     width: 25rem;
     margin-top: 4rem;
     margin-bottom: 4rem;
-    transition: all 1s;}
+    transition: all 1s;} */
 
-.excursionesLista:hover{
+/* .excursionesLista:hover{
     box-shadow: 0px 10px 10px black; 
     cursor: pointer;
-}
+} */
 
 
 
-.excursionesLista div{
+/* .excursionesLista div{
     margin: auto;
     text-align: justify;
-    width:21rem;}
+    width:21rem;} */
 
-.excursionesLista div h3{
+/* .excursionesLista div h3{
     text-align: center;
     margin-bottom: 2rem;
-}
+} */
 
-.excursionesLista div p {
+/* .excursionesLista div p {
     margin-bottom:2rem ;
-}
+} */
 
-.excursionesLista button{
+/* .excursionesLista button{
     width: 100%;
     background-color: black;
     border: none;
-    transition: all 1s;}
+    transition: all 1s;} */
 
-.excursionesLista:hover button{
+/* .excursionesLista:hover button{
     background-color:#f8c300;
     color:#1a262c;
     cursor: pointer;
-}
+} */
 
-.excursionesLista a{
+/* .excursionesLista a{
     color: white;
     text-decoration: none;
     font-weight: bold;
-}
+} */
 
-.excursionesLista:hover button a {
+/* .excursionesLista:hover button a {
     color:#1a262c;
     transition: all 1s;
-} */
+}  */
 
 
 
