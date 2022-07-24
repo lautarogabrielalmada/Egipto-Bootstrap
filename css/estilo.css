@@ -150,7 +150,6 @@
 }
 
 
-
  .section2Index{
     margin-top: 18rem;} 
 
@@ -171,7 +170,6 @@
 
 
  .section7Index{
-    background-color:#f8c300;
     margin-bottom: 10rem;
     margin-top: 10rem;
     padding-top: 5rem;
@@ -179,13 +177,9 @@
 
 
 .section7Index h2 {
-    color: white;
     font-size: 4rem;
 } 
 
-.section7Index p {
-    color:white;
-}
 .section7Index iframe{
     width: 90%;
     margin-left: 2rem;
@@ -925,10 +919,6 @@ textarea {
  /* FOOTER */
 
 footer{
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    align-items: center;
     background-color: #f8c300;
     padding-top:3rem;
     padding-bottom: 2rem;
