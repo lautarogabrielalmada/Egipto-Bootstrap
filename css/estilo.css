@@ -199,13 +199,10 @@
     margin-bottom:15rem;
 }
 
-/* .section2Excursiones{
-   
-    display: flex;
-    justify-content: center;
-    gap: 0.3rem;
-    flex-wrap: wrap;
-} */
+.section2Excursiones{
+    gap: 0.3rem; 
+    
+}
 
 /* .section3Excursiones{
    
@@ -742,42 +739,11 @@ textarea {
 @media (max-width:768px){
 
 
-/* HEADER MEDIA  */
- 
-    /* header nav ul {
-        display: none;
-    }
-
-    .menuHamburguesa{
-        display: block;
-        margin-left: 70%;} */
-/* HEADER MEDIA  */
-
-
-
-
-
-
-
 
 /* MEDIA INDEX GRILLA */
     
-/* 
-    .section2Index img{
-        width: 300px;
-        height: 200px;
-        }
 
-    .section2Index{
-        margin-bottom: 5rem;
-    }
-
-    .section3Index{
-        margin: auto;}
-
-    .section4Index{
-        margin:auto;}
-        */
+    
     .section6Index img{
         width: 300px;
         height: 200px;
@@ -793,26 +759,23 @@ textarea {
 
  /* MEDIA EXCURSIONES GRILLA */
 
-    /* body > main > section.section2Excursiones > img:nth-child(1){
-        width: 400px;
-        height: 650px;
-    }
+   
 
-    body > main > section.section2Excursiones > img:nth-child(2){
+     body > main > section.section2Excursiones > img:nth-child(2){
         display: none;
-    }
+    } 
 
     body > main > section.section2Excursiones > img:nth-child(3){
         display: none;
-    }
+    } 
 
     .section4Excursiones .excursionesLista p {
         display: none;
-    }
+    } 
 
-    body > main > section.section1Hoteles > img{
+    /* body > main > section.section1Hoteles > img{
         display: none;
-    } */
+    }  */
 
 
  /* MEDIA EXCURSIONES GRILLA */
