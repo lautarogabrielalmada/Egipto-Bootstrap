@@ -288,14 +288,6 @@ background-color:#f8c300;
 
 /* GRILLA MAIN HOTELES*/
 
-
-
-
-.section1Hoteles{
-    background-color: #f8c300;
-}
-
-
  .section1Hoteles img{
     width: 50vw; 
     height: 100vh;
@@ -314,8 +306,6 @@ background-color:#f8c300;
     margin: auto;
     font-size: calc(3rem + 1vw);
     margin-bottom: 3rem;
-    color: white;
-   
 } 
 
 .section1Hoteles p {
@@ -325,18 +315,12 @@ background-color:#f8c300;
     font-size: clas(1rem + 1vw);
 } 
 
-/* .section2Hoteles{
-    grid-area:section2Hoteles;
+.section2Hoteles{
     margin-top:10rem;
     margin-bottom: 10rem;
     padding: 2rem;
-    background-color: #22323a;
-} */
+} 
 
-/* .section2Hoteles h2{
-    font-size: calc(2rem + 1vw);
-    color:white;
-    text-align: center;} */
 
 
 /* .section3Hoteles{
