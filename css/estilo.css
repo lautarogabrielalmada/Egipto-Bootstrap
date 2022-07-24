@@ -107,22 +107,7 @@
 
 
 
-/* GRILLA PADRE */
-/* .grillaPadre{
-    display: grid;
-    width: 100%;
-    grid-template-columns:repeat(3, 1fr);
-    grid-template-areas:
-    "header header header"
-    "imgEncabezado imgEncabezado imgEncabezado"
-    "main main main"
-    "footer footer footer";
- }
 
- main{grid-area: main;} */
-
- 
-/* GRILLA PADRE */
 
 
 
@@ -151,15 +136,13 @@
 
 
  .section2Index{
-    margin-top: 18rem;} 
+    margin-top: 5rem;} 
 
  .section3Index{
-    text-align: justify;
-    width: 90%;}
+    text-align: justify;}
 
  .section4Index{
-    text-align: justify;
-    width: 90%;}
+    text-align: justify;}
 
  .section5Index{
     text-align: justify;
@@ -182,7 +165,7 @@
 
 .section7Index iframe{
     width: 90%;
-    margin-left: 2rem;
+    margin-left: 5%;
 } 
 
 /* GRILLA MAIN INDEX */
