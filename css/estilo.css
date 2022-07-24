@@ -204,24 +204,21 @@
     
 }
 
-/* .section3Excursiones{
+.section3Excursiones{
    
     margin-top: 5rem;
     margin-bottom: 5rem;
-    background-color: #f8c300;
     padding-top: 5rem;
     padding-bottom: 5rem;
-} */
+}
 
-/* .section3Excursiones div{
+.section3Excursiones div{
     width: 50%;
-    margin: auto;
-} */
+} 
 
-/* .section3Excursiones div h2{
-    margin-bottom: 3rem;
+.section3Excursiones div h2{
     font-size:calc(2rem + 1vw);
-    color: white;} */
+} 
 
 
 
