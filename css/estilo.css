@@ -64,46 +64,48 @@
     margin-left: 1rem;
 }
 
- /* nav ul {
-    justify-content:space-evenly;
-    width: 90%; 
- } */
 
- /* .navbar{padding:0;} */
+.encabezadoH1{
+    font-weight: bold;
+    font-family: sans-serif;
+}
 
- /* .navegacionModificacion {
-    background-color:#f8c300;
-    padding-top: 1rem;
-    padding-bottom: 1rem;} */
-
- /* .navegacionModificacion a img {
-    margin-left: 1rem;} */
-
- /* .navegacionModificacion ul li a {
-    color: rgb(126, 126, 126);
-    font-size: 1.1rem;} */
-
- /* .navegacionModificacion ul li a:hover{
-    color: black;} */
-
-
-
-/* .imagenEncabezado{
-    background-image: url(../imagenes/imagen-encabezado.jpg);
+.encabezadoBack{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../imagenes/imagen-encabezado.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height:80vh;
-     }   */
-     
-/* .imagenEncabezado h1 {
-    color:white;
-    padding: 2rem;
-    border-radius: 5rem;
-    backdrop-filter:blur(10px);
-    font-size:calc(2rem + 1vw);} */
+    height: 100vh;
+}
+
+.encabezadoContenido{
+    margin-top: 12rem;
+}
+
+.encabezadoPH1{
+    color: #f8c300;
+    font-weight:bold;}
+
+.encabezadoBtnViajar{
+    background-color: #f8c300;
+    border-radius:0rem;
+    transition: all 1ms;
+}
+
+.encabezadoBtnViajar:hover{
+    background-color: #F69F00;
+}
+
+.encabezadoBtnViajar:focus{
+    background-color: #F69F00;
+}
+
+.encabezadoBtnHoteles{
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 0rem;
+    color: white;
+    border: none;
+    transition: all 1s;
+}
 
 
 
