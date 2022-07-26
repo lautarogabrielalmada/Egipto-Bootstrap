@@ -37,9 +37,31 @@
  /* HEADER */
  
 
-.navIndexModificado{
-    font-size: 1rem;
-    border-bottom: #f8c300;
+.navModificado{
+    font-size: 1.3rem;
+    margin-right: 5rem;
+}
+
+
+
+.egiptoModificacion::first-letter{
+    color: #f8c300;
+    margin-left: 2rem;
+    
+
+}
+.egiptoModificacion{
+    font-size:2rem;
+    font-weight: bold;
+}
+
+.activoSesionModificacion{
+    border-bottom: 3px solid #f8c300;
+    color: black;
+}
+
+.logoModificacion{
+    margin-left: 1rem;
 }
 
  /* nav ul {
