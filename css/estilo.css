@@ -384,7 +384,7 @@ background-color:#f8c300;
     transition: all 1s;
 }
 
-.hotelesBtnVer:hover{
+.hotelesListado:hover .hotelesBtnVer{
     background-color: #f8c300;
     color: black;
 }
