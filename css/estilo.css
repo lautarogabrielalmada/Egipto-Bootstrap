@@ -373,7 +373,7 @@ background-color:#f8c300;
     box-shadow: 0px 10px 10px black;
     cursor: pointer;}
 
-.hotelesListado a{
+/* .hotelesListado a{
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -382,8 +382,18 @@ background-color:#f8c300;
 .hotelesListado:hover button a {
     color:#f8c300;
     transition: all 1s;
+} */
+
+.hotelesBtnVer{
+    border-radius: 0%;
+    background-color: black;
+    transition: all 1s;
 }
 
+.hotelesBtnVer:hover{
+    background-color: #f8c300;
+    color: black;
+}
 
 /* GRILLA MAIN HOTELES*/
 
