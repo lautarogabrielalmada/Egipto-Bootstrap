@@ -432,8 +432,8 @@ background-color:#f8c300;
 }
 
 .section2Consejos{
-    margin-top: 20%;
-    margin-bottom: 20%;
+    margin-top: 20rem;
+    margin-bottom: 20rem;
 }
 
 .consejosListado{
@@ -494,7 +494,7 @@ background-color:#f8c300;
 .section2Contacto{
     margin-top: 10%;
     margin-bottom: 10%;
-    width: 100vw;
+    width: 100%;
 }
 
 
@@ -510,18 +510,6 @@ background-color:#f8c300;
 }
 
 
-seccion1 */
-#mainContacto > section:nth-child(1) div{
-
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-#mainContacto > section:nth-child(1) h2 {
-        text-align: center;
-        margin-top: 10%;
-        margin-bottom: 10%;
-        font-size: 2rem;}
 
 
 input[type=text], select {
@@ -630,17 +618,7 @@ textarea {
 
 
 
-/* FOOTER MEDIA  */
 
-.footerFuentes{
-    display: none;
-}
-
-.footerAutor{
-    text-align: center;
-} */
-
-/* FOOTER MEDIA  */
 
 
 }
@@ -665,26 +643,6 @@ textarea {
 
 
  /* FOOTER */
-
-/* footer{
-    background-color: #f8c300;
-    padding-top:3rem;
-    padding-bottom: 2rem;
- }
-
-footer p,li{
-    color: rgb(95, 95, 95);
-    list-style-type: none;
-}
-
-footer a {
-    color: rgb(95, 95, 95);
-    transition: 1s;
-    text-decoration: none;}
-
-footer a:hover{
-    color:black;
-}  */
 
 
 .borderTopFooter{
