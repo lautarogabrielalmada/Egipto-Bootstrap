@@ -624,7 +624,7 @@ textarea {
 
 /* MOBILE CONTACTO */
 
-body > main > section.section2Contacto.d-flex.flex-wrap.justify-content-between.bg-black > img{
+.imagenContactoSection2{
     display:none;
 }
 
