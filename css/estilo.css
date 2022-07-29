@@ -622,7 +622,11 @@ textarea {
     }
 
 
+/* MOBILE CONTACTO */
 
+body > main > section.section2Contacto.d-flex.flex-wrap.justify-content-between.bg-black > img{
+    display: none;
+}
 
 
 
