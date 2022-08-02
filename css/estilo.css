@@ -297,3 +297,5 @@ textarea {
   margin-right: 1rem; }
 
 /* FOOTER */
+h2, h3, h4 {
+  font-weight: bold; }
