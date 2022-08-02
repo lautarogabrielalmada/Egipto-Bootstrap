@@ -1,0 +1,70 @@
+/* HEADER */
+
+.navModificado {
+    font-size: 1.3rem;
+    margin-right: 5rem;
+  }
+  
+  .egiptoModificacion {
+    &::first-letter {
+      color: #f8c300;
+      margin-left: 2rem;
+    }
+  
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .activoSesionModificacion {
+    border-bottom: 3px solid #f8c300;
+    color: black;
+  }
+  
+  .logoModificacion {
+    margin-left: 1rem;
+  }
+  
+  .encabezadoH1 {
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+
+.encabezadoBack {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../imagenes/imagen-encabezado.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  .encabezadoContenido {
+    margin-top: 12rem;
+  }
+  
+  .encabezadoPH1 {
+    color: #f8c300;
+    font-weight: bold;
+  }
+  
+  .encabezadoBtnViajar {
+    background-color: #f8c300;
+    border-radius: 0rem;
+    transition: all 1ms;
+  
+    &:hover, &:focus {
+      background-color: #F69F00;
+    }
+  }
+
+  .encabezadoBtnHoteles {
+    background-color: black;
+    border-radius: 0rem;
+    color: white;
+    border: none;
+    transition: all 1s;
+  }
+  
+  .botonAencabe {
+    text-decoration: none;
+  }
+  
+  /* HEADER */

@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Nanum+Myeongjo&family=Roboto:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Roboto:wght@100&display=swap');
+
+.bodyIndex, .bodyExcursiones, .bodyHoteles, .bodyConsejos, .bodyContacto {
+  margin: 0;
+  padding: 0;
+  line-height: 2rem;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+ul ol {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-size: 20px;
+  color: rgb(24, 24, 24);
+  font-family: sans-serif;
+}
+
+footer {
+  font-family: sans-serif;
+}
+
+ 
+ 
+ /* GRILLA MAIN INDEX */
+
+ .section1Index {
+    margin-top: 15rem;
+    margin-bottom: 10rem;
+  }
+  
+  .section2Index {
+    margin-top: 5rem;
+  }
+  
+  .section3Index, .section4Index {
+    text-align: justify;
+  }
+  
+  .section5Index {
+    text-align: justify;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
+  
+  .section7Index {
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  
+    h2 {
+      font-size: 4rem;
+    }
+  
+    iframe {
+      width: 90%;
+      margin-left: 5%;
+    }
+  }
+  
+  /* GRILLA MAIN INDEX */
+
+  /* GRILLA MAIN EXCURSIONES*/
+
+.section1Excursiones {
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+  }
+  
+  .section2Excursiones {
+    gap: 0.3rem;
+  }
+  
+  .section3Excursiones {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  
+    div {
+      width: 50%;
+  
+      h2 {
+        font-size: calc(2rem + 1vw);
+      }
+    }
+  }
+  
+  .excursionesLista {
+    .card-body {
+      transition: all 1s;
+    }
+  
+    div {
+      .card-body:hover {
+        box-shadow: 0px 10px 10px black;
+        cursor: pointer;
+      }
+  
+      div .btn-primary {
+        background-color: black;
+        border: #1a262c;
+        transition: all 1s;
+      }
+  
+      .card-body:hover .btn-primary {
+        background-color: #f8c300;
+        color: #1a262c;
+        cursor: pointer;
+      }
+    }
+  }
+  
+  /* GRILLA MAIN EXCURSIONES*/
+
+  /* GRILLA MAIN HOTELES*/
+
+.section1Hoteles {
+    img {
+      width: 50vw;
+      height: 100vh;
+      margin: auto;
+    }
+  
+    div {
+      width: 35rem;
+      margin: auto;
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+    }
+  
+    h2 {
+      width: 80%;
+      margin: auto;
+    }
+  
+    p {
+      width: 80%;
+      margin: auto;
+      font-size: clas(1rem (+1vw));
+    }
+  }
+  
+  .section2Hoteles {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    padding: 2rem;
+  }
+  
+  .hotelesListado {
+    width: 90%;
+    margin: auto;
+    border: 1px rgba(0, 0, 0, 0.3) solid;
+    transition: all 1s;
+  
+    button {
+      width: 100%;
+      border: none;
+    }
+  }
+  
+  .btn-primary {
+    border: #1a262c;
+    transition: all 1s;
+  }
+  
+  .hotelesListado:hover {
+    box-shadow: 0px 10px 10px black;
+    cursor: pointer;
+  }
+  
+  .hotelesBtnVer {
+    border-radius: 0%;
+    background-color: black;
+    transition: all 1s;
+  }
+  
+  .hotelesListado:hover .hotelesBtnVer {
+    background-color: #f8c300;
+    color: black;
+  }
+  
+  /* GRILLA MAIN HOTELES*/
+  
+  /* GRILLA MAIN CONSEJOS*/
+
+.fuenteConBold {
+    font-weight: bold;
+  }
+  
+  .section1Consejos {
+    width: 90%;
+    margin-top: 15%;
+  }
+  
+  .section2Consejos {
+    margin-top: 20rem;
+    margin-bottom: 20rem;
+  }
+  
+  .consejosListado {
+    text-align: justify;
+  }
+  
+  .anchoConsejoListado {
+    width: 90%;
+  }
+  
+  /* GRILLA MAIN CONSEJOS*/
+  
+  /* GRILLA MAIN CONTACTO*/
+  
+  .section1Contacto {
+    margin-top: 10rem;
+    width: 90vw;
+    margin: auto;
+  }
+  
+  .section2Contacto {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 100%;
+  
+    img {
+      margin: auto;
+    }
+  
+    div {
+      margin: auto;
+      width: 50%;
+    }
+  }
+  
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input {
+    &[type=submit] {
+      width: 100%;
+      background-color: black;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      transition: all 1s;
+  
+      &:hover {
+        background-color: #f8c300;
+        color: black;
+      }
+    }
+  
+    &[type=email] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+  
+    &[type=text]:focus {
+      border: 3px solid #555;
+    }
+  }
+  
+  textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+  }
+  
+   /* seccion1
+  
+  
+  
+  /* GRILLA MAIN CONTACTO*/
+  
+  @media (max-width: 768px) {
+    /* MEDIA INDEX GRILLA */
+  
+    .section6Index img {
+      width: 300px;
+      height: 200px;
+    }
+  
+    /* MEDIA INDEX GRILLA */
+  
+    /* MEDIA EXCURSIONES GRILLA */
+  
+    body > main > section.section2Excursiones > img {
+      &:nth-child(2), &:nth-child(3) {
+        display: none;
+      }
+    }
+  
+    .section4Excursiones .excursionesLista p, body > main > section.section1Hoteles > img, .imagenContactoSection2 {
+      display: none;
+    }
+  
+    /* MEDIA EXCURSIONES GRILLA */
+  
+    /* MOBILE CONTACTO */
+  }
