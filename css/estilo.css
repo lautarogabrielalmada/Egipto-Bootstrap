@@ -270,8 +270,10 @@ textarea {
   resize: none; }
 
 /* seccion1
-  /* GRILLA MAIN CONTACTO*/
   
+  
+  
+  /* GRILLA MAIN CONTACTO*/
 @media (max-width: 768px) {
   /* MEDIA INDEX GRILLA */
   .section6Index img {
@@ -287,7 +289,6 @@ textarea {
   /* MOBILE CONTACTO */ }
 
 /* FIN MEDIA QUERY */
-
 /* FOOTER */
 .borderTopFooter {
   border-top: #f8c300 3px solid; }
