@@ -1,0 +1,11 @@
+
+$mapRedes:(facebook:blue, instagram:violet);
+
+@each $redSocial, $color in $mapRedes {
+    .#{$redSocial}{
+        color:$color;
+    }
+
+    
+}
+
