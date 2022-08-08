@@ -9,3 +9,15 @@ $mapRedes:(facebook:blue, instagram:violet);
     
 }
 
+$estilo:(bordeCaja:1px solid black, tipoFuente:bold, paddinCaja:0.5rem, hoverCaja:black);
+
+.estiloFaceInsta{
+    border:map-get($map: $estilo, $key: bordeCaja );
+    font-weight: map-get($map: $estilo, $key: tipoFuente );
+    padding: map-get($map: $estilo, $key:paddinCaja );
+    &:hover{
+        color: map-get($map: $estilo, $key:hoverCaja );
+        transition: all 1s;
+    }
+}
+
