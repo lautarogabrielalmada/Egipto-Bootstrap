@@ -1,0 +1,6 @@
+.segundoEstiloFaceInsta{
+    @extend .estiloFaceInsta;
+    border-radius: 1rem;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(13,1,37,1) 46%, rgba(73,5,44,0.9248074229691877) 100%, rgba(0,212,255,1) 100%);
+}
