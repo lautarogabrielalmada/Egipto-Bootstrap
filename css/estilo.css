@@ -307,7 +307,7 @@ h2, h3, h4 {
   color: violet; }
 
 .estiloFaceInsta {
-  border: 1px solid black;
+  border: 1px solid #6c757d;
   font-weight: bold;
   padding: 0.5rem; }
   .estiloFaceInsta:hover {
