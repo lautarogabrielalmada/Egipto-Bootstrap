@@ -318,3 +318,9 @@ h2, h3, h4 {
   border-radius: 1rem;
   background: #020024;
   background: linear-gradient(90deg, #020024 0%, #0d0125 46%, rgba(73, 5, 44, 0.924807) 100%, #00d4ff 100%); }
+
+.consejoTitulosEstilo {
+  background-color: #f8c300;
+  color: white;
+  padding: 1rem;
+  font-family: sans-serif; }
