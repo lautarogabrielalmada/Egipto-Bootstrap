@@ -1,0 +1,5 @@
+-Se modificaron los title del header Egipto – inicio , Egipto – Excursiones , Egipto – Hoteles, Egipto – Consejos, Egipto – Contacto
+-Se creo Meta description y Meta keywords en todas las paginas
+-Se agrego todos los ALT a las imágenes
+-Se optimizaron todas las imágenes jpg con tiny jpg
+-Se revisaron todos los H y su orden
