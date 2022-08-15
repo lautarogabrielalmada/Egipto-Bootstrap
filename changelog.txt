@@ -3,3 +3,4 @@
 -Se agrego todos los ALT a las imágenes
 -Se optimizaron todas las imágenes jpg con tiny jpg
 -Se revisaron todos los H y su orden
+-Se cambiaron a los pixeles que necesitaba cada imagen
